@@ -1,0 +1,6 @@
+---
+Name: headergallery
+---
+Page:
+  extensions:
+    - Netwerkstatt\HeaderGallery\Extensions\HeaderPicExtension

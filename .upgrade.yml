@@ -1,0 +1,3 @@
+mappings:
+  HeaderPicExtension: Netwerkstatt\HeaderGallery\Extensions\HeaderPicExtension
+  HeaderPicResource: Netwerkstatt\HeaderGallery\Model\HeaderPicResource

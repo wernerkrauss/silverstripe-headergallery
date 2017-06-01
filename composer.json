@@ -1,0 +1,30 @@
+{
+  "name": "wernerkrauss/silverstripe-headergallery",
+  "description": "SS4 compatible simple header gallery",
+  "license": "MIT",
+  "type": "silverstripe-module",
+  "keywords": [
+    "silverstripe", "extension"
+  ],
+  "authors": [
+    {
+      "name": "Werner Krauß",
+      "email": "werner.krauss@netwerkstatt.at",
+      "homepage": "http://www.netwerkstatt.at",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "~4.0",
+    "silverstripe/cms": "~4.0",
+    "colymba/gridfield-bulk-editing-tools": "~3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Netwerkstatt\\HeaderGallery\\": "src/"
+    }
+  },
+  "extra": {
+    "installer-name": "headergallery"
+  }
+}

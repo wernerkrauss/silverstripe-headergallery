@@ -2,7 +2,6 @@
 
 namespace Netwerkstatt\HeaderGallery\Model;
 
-
 use SilverStripe\AssetAdmin\Forms\UploadField;
 use SilverStripe\Assets\Image;
 use SilverStripe\Core\Injector\Injector;
@@ -13,13 +12,12 @@ use SilverStripe\Forms\TextField;
 use SilverStripe\ORM\DataObject;
 use SilverStripe\Security\Permission;
 
-
 /**
  * Class HeaderPicRessource
  */
 class HeaderPicResource extends DataObject
 {
-
+    private static $table_name = 'HeaderPicResource';
 
     private static $db = [
         'Title' => 'Text',
@@ -57,7 +55,6 @@ class HeaderPicResource extends DataObject
         $this->extend('updateCMSFields', $fields);
 
         return $fields;
-
     }
 
     public function canDelete($member = null)
